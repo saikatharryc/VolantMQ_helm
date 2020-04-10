@@ -38,10 +38,10 @@ metrics:
     namespace: prometheus
     # fallback to the prometheus default unless specified
     interval: 3s
-    #scrapeTimeout: 10s
+    # scrapeTimeout: 10s
 
     selector:
-      release: prometheus-operator # prometheus operator release
+      release: prometheus-operator  # prometheus operator release
 
 serviceAccount:
   ## Specifies whether a ServiceAccount should be created
@@ -77,7 +77,7 @@ readinessProbe:
   interval: 60
   timeout: 3
   initialDelay: 30
-  
+
 livenessProbe:
   enable: false
   initialDelay: 30
@@ -145,4 +145,3 @@ config: |
       maxPacketSize: 268435455
       maxTopicAlias: 65535
       maxQoS: 2
-
