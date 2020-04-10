@@ -1,0 +1,18 @@
+apiVersion: v2
+name: volantmq
+version: 0.1.1
+appVersion: "dev"
+description: VolantMQ mqtt broker
+keywords:
+- mqtt
+- volantmq
+- mqtt-broker
+sources:
+- https://github.com/VolantMQ/helm
+- https://github.com/VolantMQ/volantmq
+icon: https://avatars2.githubusercontent.com/u/30122488
+maintainers:
+  - name: Ante Gulin
+    email: gnante0@gmail.com
+  - name: saikatharryc
+    email: saikatchakrabortty2@gmail.com
