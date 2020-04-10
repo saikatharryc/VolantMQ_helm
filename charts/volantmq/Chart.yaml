@@ -11,6 +11,7 @@ sources:
 - https://github.com/VolantMQ/helm
 - https://github.com/VolantMQ/volantmq
 icon: https://avatars2.githubusercontent.com/u/30122488
+home: https://github.com/VolantMQ/helm
 maintainers:
   - name: Ante Gulin
     email: gnante0@gmail.com
