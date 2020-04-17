@@ -1,13 +1,12 @@
 apiVersion: v2
 name: volantmq
-version: 0.1.1
+version: 0.1.1-rc
 appVersion: "dev"
 description: VolantMQ mqtt broker
 keywords:
 - mqtt
 - volantmq
 - mqtt-broker
-
 sources:
 - https://github.com/VolantMQ/helm
 - https://github.com/VolantMQ/volantmq
