@@ -1,3 +1,6 @@
+debug: true
+remote: origin
+target-branch: master
 chart-dirs:
   - charts
 # helm-extra-args: --timeout 60s
