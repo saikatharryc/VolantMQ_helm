@@ -1,5 +1,4 @@
-debug: true
 remote: origin
-target-branch: master
+target-branch: mvp
 chart-dirs:
   - charts
